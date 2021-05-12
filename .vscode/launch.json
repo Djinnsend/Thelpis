@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+<<<<<<< HEAD
+        {
+            "name": "Launch current script in console",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "externalConsole": false,
+            "port": 9000
+        },
+        {
+            "name": "Launch built-in server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "."
+            ],
+            "port": 9000,
+            "serverReadyAction": {
+                "action": "openExternally"
+            }
+        },
+        
+=======
+>>>>>>> 0ef41aa93eb94012831b64b67ebd3aaaebd47239
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            // "url": "http://localhost:8080",
+            "file": "${workspaceFolder}"
+        },
+    
+
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9000,
+            "runtimeExecutable": "C://newxampp//php//php.exe"
+        }
+    ]
+}
